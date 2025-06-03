@@ -3,7 +3,7 @@ let gasten = [];
 
     const vertalingen = {
       nl: {
-        titel: "Welkom bij de bruiloft van<br>Nataša en Elric",
+        titel: "Welkom bij de bruiloft van<br>Bride and Groom",
         invoerPlaceholder: "Voornaam Achternaam",
         knop: "Bekijk je tafelnummer",
         naamNietGevonden: "❌ Naam niet gevonden. Probeer het opnieuw.",
@@ -13,7 +13,7 @@ let gasten = [];
         vulNaam: "Voer je naam in"
       },
       rs: {
-        titel: "Dobrodošli na venčanje<br>Nataše i Elrica",
+        titel: "Dobrodošli na venčanje<br>Bride and Groom",
         invoerPlaceholder: "Ime i Prezime",
         knop: "Pogledaj broj stola",
         naamNietGevonden: "❌ Ime nije pronađeno. Pokušajte ponovo.",
