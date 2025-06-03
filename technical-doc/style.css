@@ -1,0 +1,139 @@
+html, body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #eef0ee;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  display: block;
+  margin: 10px;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+}
+
+nav {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+ul {
+  display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+header {
+  color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#navbar li {
+
+  color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    background-color: #e4e7e4
+}
+
+li {
+  display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+#navbar a {
+  display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+#navbar li:hover {
+  background-color: #A9F5A9;
+}
+
+#main-doc {
+  position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+#main-doc header {
+
+  text-align: left;
+    margin: 0px;
+}
+
+section {
+  display: block;
+    unicode-bidi: isolate;
+}
+
+section article {
+  color: #4d4e53;
+    margin: 15px;
+    font-size: 0.96em;
+}
+
+article {
+  display: block;
+    unicode-bidi: isolate;
+}
+
+p {
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+code {
+  display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {
+  #main-doc {
+    width: 675px;
+  }

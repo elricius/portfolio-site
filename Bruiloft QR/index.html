@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welkom bij de trouwerij van Nataša en Elric</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="simulator">
+    <div id="taalkeuze">
+      <p id="taalLabel">Kies taal / Izaberite jezik:</p>
+      <button class="vlagknop" onclick="zetTaal('nl')">
+        <img src="nederland.svg" alt="Nederlands" />
+      </button>
+      <button class="vlagknop" onclick="zetTaal('rs')">
+        <img src="servie.svg" alt="Servisch" />
+      </button>
+    </div>
+    
+    
+
+    <h1>Welkom bij de bruiloft van</br>Nataša en Elric</h1>
+    <p id="invoerTekst">Voer je naam in</p>
+    <input type="text" id="nameInput" list="namenlijst" placeholder="Voornaam Achternaam" autocomplete="off" />
+    <datalist id="namenlijst"></datalist>
+
+    <button id="zoekButton" onclick="zoekGast()">Bekijk je tafelnummer</button>
+    <div class="result" id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

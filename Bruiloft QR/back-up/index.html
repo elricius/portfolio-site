@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welkom bij de trouwerij van Nataša en Elric</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fbece9;
+      color: #333;
+      text-align: center;
+      padding: 2rem;
+    }
+	
+	/*
+	body {
+	  background: url('achtergrond.jpg') no-repeat center center fixed;
+	  background-size: cover;
+	}
+	*/
+
+     #mobiel {
+      max-width: 490px;
+      margin: 0 auto;
+      height: 944px; 
+      border: 10px solid #aaa;
+      border-radius: 15px;
+      padding: 15px;
+
+    }
+    h1 {
+      font-size: 1.8em;
+    }
+    input, button {
+      display: block;
+      width: 90%;
+      max-width: 400px;
+      margin: 10px auto;
+      padding: 12px;
+      font-size: 1em;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: rgb(182, 109, 202);
+
+    }
+
+    .result {
+      margin-top: 20px;
+      font-size: 1.2em;
+    }
+
+    .vlagknop {
+      background-color: transparent;
+      border: none;
+      padding: 5px;
+      margin: 10px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      width: 100px;
+      display: inline;
+    }
+
+    .vlagknop img {
+      width: 80px;
+      height: auto;
+    }
+
+    .vlagknop:hover {
+      transform: scale(1.1);
+    }
+
+    p {
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="mobiel">
+   <!--Taal selectie met bijbehorende vlaggen-->
+    <div id="taalkeuze">
+      <p id="taalLabel">Kies taal / Izaberite jezik:</p>
+      <button class="vlagknop" onclick="zetTaal('nl')">
+        <img src="nederland.svg" alt="Nederlands" />
+      </button>
+      <button class="vlagknop" onclick="zetTaal('rs')">
+        <img src="servie.svg" alt="Servisch" />
+      </button>
+    </div>
+    
+    
+
+    <h1>Welkom bij de trouwerij van Nataša en Elric</h1>
+    <p id="invoerTekst">Voer je naam in</p>
+    <input type="text" id="nameInput" list="namenlijst" placeholder="Voornaam Achternaam" autocomplete="off" />
+    <datalist id="namenlijst"></datalist>
+
+    <button id="zoekButton" onclick="zoekGast()">Bekijk je tafelnummer</button>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script>
+    
+    let gasten = [];
+    let huidigeTaal = 'nl';
+
+    const vertalingen = {
+      nl: {
+        titel: "Welkom bij de trouwerij van Nataša en Elric",
+        invoerPlaceholder: "Voornaam Achternaam",
+        knop: "Bekijk je tafelnummer",
+        naamNietGevonden: "❌ Naam niet gevonden. Probeer het opnieuw.",
+        zitAanTafel: "🎉 Je zit aan tafel",
+        samenMet: "Samen met:",
+        kiesTaal: "Kies taal",
+        vulNaam: "Voer je naam in"
+      },
+      rs: {
+        titel: "Dobrodošli na venčanje Nataše i Elrica",
+        invoerPlaceholder: "Ime i Prezime",
+        knop: "Pogledaj broj stola",
+        naamNietGevonden: "❌ Ime nije pronađeno. Pokušajte ponovo.",
+        zitAanTafel: "🎉 Vaš sto je broj",
+        samenMet: "Za stolom su:",
+        kiesTaal: "Izaberite jezik",
+        vulNaam: "Unesite vaše ime"
+      }
+    };
+
+  function zetTaal(taal) {
+    huidigeTaal = taal;
+    const t = vertalingen[taal];
+
+    document.querySelector("h1").textContent = t.titel;
+    document.querySelector("input").placeholder = t.invoerPlaceholder;
+    document.getElementById("zoekButton").textContent = t.knop;
+    document.getElementById("invoerTekst").textContent = t.vulNaam;
+    document.getElementById("taalLabel").textContent = `${t.kiesTaal} / ${vertalingen[taal === 'nl' ? 'rs' : 'nl'].kiesTaal}`;
+  }
+
+
+    fetch('gasten.json')
+      .then(response => response.json())
+      .then(data => {
+        gasten = data;
+
+        // Vul autocomplete lijst
+        const namenlijst = document.getElementById("namenlijst");
+        gasten.forEach(g => {
+          const optie = document.createElement("option");
+          optie.value = `${g.Voornaam} ${g.Achternaam}`.trim();
+          namenlijst.appendChild(optie);
+        });
+      })
+
+      .catch(error => {
+        document.getElementById("result").innerHTML = "Kon gastenlijst niet laden.";
+      });
+
+    function zoekGast() {
+	  const input = document.getElementById('nameInput').value.trim().toLowerCase();
+	  const gevonden = gasten.find(g => (`${g.Voornaam} ${g.Achternaam}`.trim()).toLowerCase() === input);
+
+	  const resultaat = document.getElementById('result');
+	  if (gevonden) {
+      const tafel = gevonden.Tafel;
+      const tafelgenoten = gasten.filter(g => g.Tafel === tafel);
+      const namen = tafelgenoten.map(p => `${p.Voornaam} ${p.Achternaam}`.trim()).join(', ');
+
+      const t = vertalingen[huidigeTaal]; // haal vertaling op
+
+      resultaat.innerHTML = `
+        ${t.zitAanTafel} <strong>${tafel}</strong><br/><br/>
+        <strong>${t.samenMet}</strong><br/>
+        ${namen}
+      `;
+    } else {
+      resultaat.innerHTML = vertalingen[huidigeTaal].naamNietGevonden;
+    }
+
+	}
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fbece9;
+  color: #333;
+  text-align: center;
+  padding: 2rem;
+}
+
+.simulator {
+  max-width: 490px;
+  margin: 0 auto;
+  height: 944px;
+  border: 10px solid #aaa;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .simulator {
+    max-width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+  }
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+input, button {
+  display: block;
+  width: 90%;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 12px;
+  font-size: 1em;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+button {
+  background-color: rgb(182, 109, 202);
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.vlagknop {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  width: 100px;
+  display: inline;
+}
+
+.vlagknop img {
+  width: 80px;
+  height: auto;
+}
+
+.vlagknop:hover {
+  transform: scale(1.1);
+}
+
+p {
+  font-weight: bold;
+  font-size: 1.2em;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Fysieke Inrichting WMS</header>
+      <ul>
+        <li>
+			<a class="nav-link" href="#Introduction">Introduction</a>
+		</li>
+		<li>
+			<a class="nav-link" href="#Companies">Companies</a>
+		</li>
+		<li>
+			<a class="nav-link" href="#Plants">Plants</a>
+		</li>
+		<li>
+			<a class="nav-link" href="#Buildings">Buildings</a>
+		</li>
+		<li>
+			<a class="nav-link" href="#Areas">Areas</a>
+		</li>
+		<li>
+			<a class="nav-link" href="#Aisles">Aisles</a>
+		</li>
+		<li>
+			<a class="nav-link" href="#Racks">Racks </a>
+		</li>
+		<li>
+			<a class="nav-link" href="#Rack_Columns">Rack columns</a>
+		</li>
+		<li>
+			<a class="nav-link" href="#X_en_Y_coordinaten">X en Y coordinaten</a>
+		</li>
+		<li>
+			<a class="nav-link" href="#Locatie_types">Locatie types </a>
+		</li>
+      </ul>
+    </nav>
+	<main id="main-doc">
+		<section class="main-section" id="Introduction">
+			<header>Introduction</header>
+			<p>Deze pagina is bedoeld om een voorbeeld te laten zien met welke onderdelen de fysieke inrichting van een magazijn in te regelen valt.
+			Onder de fysieke inrichting verstaan we de gebieden (area's) en bijbehorende locaties.</P>
+			<p>Deze indeling is belangrijk om zo ook te kunnen bepalen welke producten of ladingdragers je waar neer kan zetten.
+			Ook is dit belangrijk om een bepaalde routing in je magazijn te kunnen configureren.</p>
+			<p>Goed om te weten, dit heeft verder nog niets te maken met wachtrijen, workflows, producten ect. Het is puur om de inrichting van je magazijn te kunnen configureren.</p>
+		</section>
+		<section class="main-section" id="Companies">
+			<header>Companies</header>
+			<article>
+				<p>Een bedrijf kan meerdere locaties hebben die onder andere entiteiten vallen, en dus ook een aparte kostenpost hebben.</p>
+				<p>Dit kan bijvoorbeeld een vestiging in Zuid-Holland voor Hoofdbedrijf A, company A zijn.
+				   Daarnaast heeft Hoofdbedrijf A een vestiging in Limburg, in dit geval company B.</p>
+				<p>Op deze manier kan er gebruik gemaakt worden van 1 applicatie, met een scheiding op company/plant niveau. Er kan ook voor gekozen worden om elke company een eigen applicatie te geven i.v.m. risico spreiding.</p> 
+			</article>
+		</section>
+		<section class="main-section" id="Plants">
+			<header>Plants</header>
+			<article>
+				<p>Elke company kan meerdere vestigingen hebben, welke voor de administratie ook gescheiden dienen te blijven. Dit is in te regelen op plant niveau.</p>
+			</article
+		</section>
+		<section class="main-section" id="Buildings">
+			<header>Buildings</header>
+			<p>De mogelijkheid bestaat dat een vestiging uit meerdere gebouwen bestaat op bijvoorbeeld hetzelfde bedrijven terrein als overflow, of volledig operationeel. Dit is in te regelen met buildings.</p>
+			<code>
+				Buildings en plants hebben een N-1 relatie
+				Buildings = N
+				Plants = 1
+			</code>
+		</section>
+		<section class="main-section" id="Areas">
+			<header>Areas</header>
+			<p>In een magazijn worden er verschillende area’s met verschillende doeleinden gebruikt. Hieronder een voorbeeld van area's in een warehouse.</p>
+			<ul>
+				<li>Receiving area</li>
+				<li>Buffer area</li>
+				<li>Transfer area</li>
+				<li>Storage area</li>
+				<li>Outbound area</li>
+				<li>Dock area</li>
+			</ul>
+			<code>
+				Areas en Buildings hebben een N-1 relatie
+				Areas = N
+				Buildings = 1
+			</code>	
+		</section>
+		<section class="main-section" id="Aisles">
+			<header>Aisles</header>
+			<p>Elke opslag area, bulk of racking heeft gang/rijpaden. Deze zijn in .. in te stellen om zo ook warehouse routing te kunnen in zetten. </p>
+			<code>
+				Aisles en Areas hebben een N-N relatie
+				Aisles = N
+				Areas = N
+			</code>
+		</section>
+		<section class="main-section" id="Racks">
+			<header>Racks</header>
+			<p>Nadat de gangpaden zijn gedefinieerd, richten we de linker- en rechterkant van deze paden in met racks. Dit is vooral met stellingen het geval, maar kan ook gebruikt worden om bulk opslag in te richten voor links en rechts van het gangpad. </p>
+			<p>In een locatie aanduiding is dit ook meestal het eerste deel van de locatie nummering.</P>
+			<code>
+				Voorbeeld locatie nummering:
+				A01-01-001
+				A01 = Rack
+				01= Y-coordinaat
+				001 = X-coordinaat
+			</code>
+		</section>
+		<section class="main-section" id="Rack_Columns">
+			<header>Rack Columns</header>
+			<p>Onder kolommen verstaan we het gedeelte van de racking tussen 2 staanders in. Deze wordt niet gebruikt voor locatie aanduiding, maar meer voor op de achtergrond. Denk hierbij aan het ingeven van afstanden, en locatie types.</p> 
+		</section>
+		<section class="main-section" id="X_en_Y_coordinaten">
+			<header>X en Y coordinaten</header>
+			<p>De uiteindelijke neerzetlocaties worden gedefinieerd met een X- en een Y-coördinaat. Waarbij de X van voor naar achter het Rack gaat, worden de Y gebruikt van onder naar boven. </p>
+			<code>
+				X = Van begin aisle tot einde aisle
+				Y = Van grond locatie tot hoogste ligger
+			</code>
+		</section>
+		<section class="main-section" id="Locatie_types">
+			<header>Locatie types</header>
+			<p>Elke fysieke locatie krijgt zijn of haar eigen locatie type. Voorbeelden hiervan zijn locaties voor europallet, blokpallets of losse dozen. </P>
+			<p>Op dit niveau wordt de opslag capaciteit berekent. De afmeting per type worden hier ook in opgeslagen. Zo kan je geen hoge pallets van 1.8m op een locatietype van 1.2m neerzetten. Andersom zou mogelijk kunnen zijn op basis van configuratie in combinatie met carrier types welke we verderop in dit document nog bespreken.</p> 
+
+		</section>
+	</main>
+  </body>
+</html
