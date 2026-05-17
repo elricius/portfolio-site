@@ -1,0 +1,53 @@
+.scheduler {
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+  
+}
+.scheduler .day-column {
+  background-color: #f0f8ff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.scheduler .day-header {
+  font-weight: bold;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 6px;
+  text-align: center;
+  cursor: pointer;
+}
+.scheduler .event {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 4px;
+  margin: 4px 0;
+  border-radius: 4px;
+}
+
+.scheduler-wrapper {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin: 10px 20px 10px 20px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+
+/* toegevoegd 20250528 ivm status in scheduler */
+
+.status-line {
+  font-size: 0.85em;
+  margin: 2px 0;
+  padding: 4px 6px;
+  background-color: #eee;
+  border-radius: 3px;
+}
+
+.status-confirmed { background-color: #45E510; }
+.status-dispatching { background-color: #E58C10; }
+.status-finished { background-color: #4050a0; }
+.status-planned { background-color: #50a0f0; }
+.status-onbekend { background-color: #999; }

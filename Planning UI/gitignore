@@ -1,0 +1,24 @@
+# Node modules / package managers (indien van toepassing)
+node_modules/
+dist/
+build/
+
+# Editor instellingen
+.vscode/
+
+# Logs en systeembestanden
+*.log
+.DS_Store
+Thumbs.db
+
+# Gecomprimeerde bestanden
+*.zip
+*.rar
+*.7z
+
+# Data (alleen orders.json toestaan)
+*.json
+!data/orders.json
+
+# Backupbestanden
+*.bak

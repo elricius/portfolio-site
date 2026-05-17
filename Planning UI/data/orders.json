@@ -1,0 +1,6382 @@
+[
+  {
+    "order_id": "ORD0001",
+    "order_date": "2025-05-28",
+    "customer": "Initech",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 8,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 10,
+      "remaining": 24
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0002",
+    "order_date": "2025-05-28",
+    "customer": "Globex",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 6,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 45,
+      "remaining": 0
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0003",
+    "order_date": "2025-05-28",
+    "customer": "Umbrella Ltd.",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 0,
+      "remaining": 31
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0004",
+    "order_date": "2025-05-28",
+    "customer": "ACME Corp",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 9,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 6,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 24,
+      "remaining": 8
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0005",
+    "order_date": "2025-05-28",
+    "customer": "ACME Corp",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 6,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 8,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 15,
+      "remaining": 6
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0006",
+    "order_date": "2025-05-28",
+    "customer": "Initech",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 5,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 2,
+      "remaining": 26
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0007",
+    "order_date": "2025-05-28",
+    "customer": "Beta B.V.",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 5,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 9,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 8,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 19,
+      "remaining": 11
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0008",
+    "order_date": "2025-05-28",
+    "customer": "Beta B.V.",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 7,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 5,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 8,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 3,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 41,
+      "remaining": 4
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0009",
+    "order_date": "2025-05-28",
+    "customer": "Globex",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 16,
+      "remaining": 17
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0010",
+    "order_date": "2025-05-28",
+    "customer": "Umbrella Ltd.",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 6,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 22,
+      "remaining": 13
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0011",
+    "order_date": "2025-05-28",
+    "customer": "Globex",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 4,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 8,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 10,
+      "remaining": 14
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0012",
+    "order_date": "2025-05-28",
+    "customer": "ACME Corp",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 7,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 25,
+      "remaining": 5
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0013",
+    "order_date": "2025-05-28",
+    "customer": "Beta B.V.",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 1,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 12,
+      "remaining": 36
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0014",
+    "order_date": "2025-05-28",
+    "customer": "Initech",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 29,
+      "remaining": 3
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0015",
+    "order_date": "2025-05-28",
+    "customer": "Initech",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 1,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 16,
+      "remaining": 17
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0016",
+    "order_date": "2025-05-28",
+    "customer": "Umbrella Ltd.",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 21,
+      "remaining": 6
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0017",
+    "order_date": "2025-05-28",
+    "customer": "Globex",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 7,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 1,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 28,
+      "remaining": 4
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0018",
+    "order_date": "2025-05-28",
+    "customer": "Beta B.V.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 14,
+      "remaining": 30
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0019",
+    "order_date": "2025-05-28",
+    "customer": "ACME Corp",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 1,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 27,
+      "remaining": 4
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0020",
+    "order_date": "2025-05-28",
+    "customer": "Beta B.V.",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 9,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 28,
+      "remaining": 30
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0021",
+    "order_date": "2025-05-29",
+    "customer": "Umbrella Ltd.",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 8,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 26,
+      "remaining": 12
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0022",
+    "order_date": "2025-05-29",
+    "customer": "Initech",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 8,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 9,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 6,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 20,
+      "remaining": 30
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0023",
+    "order_date": "2025-05-29",
+    "customer": "Globex",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 1,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 7,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 6,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 11,
+      "remaining": 22
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0024",
+    "order_date": "2025-05-29",
+    "customer": "Umbrella Ltd.",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 1,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 7,
+      "remaining": 19
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0025",
+    "order_date": "2025-05-29",
+    "customer": "Beta B.V.",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 6,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 54,
+      "remaining": 2
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0026",
+    "order_date": "2025-05-29",
+    "customer": "Beta B.V.",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 1,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 17,
+      "remaining": 14
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0027",
+    "order_date": "2025-05-29",
+    "customer": "Initech",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 8,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 0,
+      "remaining": 33
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0028",
+    "order_date": "2025-05-29",
+    "customer": "Umbrella Ltd.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 6,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 36,
+      "remaining": 1
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0029",
+    "order_date": "2025-05-29",
+    "customer": "Umbrella Ltd.",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 12,
+      "remaining": 19
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0030",
+    "order_date": "2025-05-29",
+    "customer": "ACME Corp",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 11,
+      "remaining": 33
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0031",
+    "order_date": "2025-05-29",
+    "customer": "ACME Corp",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 6,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 11,
+      "remaining": 35
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0032",
+    "order_date": "2025-05-29",
+    "customer": "Beta B.V.",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 4,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 9,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 35,
+      "remaining": 3
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0033",
+    "order_date": "2025-05-29",
+    "customer": "Globex",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 9,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 7,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 7,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 22,
+      "remaining": 8
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0034",
+    "order_date": "2025-05-29",
+    "customer": "Beta B.V.",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 3,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 8,
+      "remaining": 20
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0035",
+    "order_date": "2025-05-29",
+    "customer": "Globex",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 6,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 9,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 14,
+      "remaining": 39
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0036",
+    "order_date": "2025-05-29",
+    "customer": "ACME Corp",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 8,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 9,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 8,
+      "remaining": 39
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0037",
+    "order_date": "2025-05-29",
+    "customer": "Umbrella Ltd.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 9,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 7,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 48,
+      "remaining": 8
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0038",
+    "order_date": "2025-05-29",
+    "customer": "ACME Corp",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 9,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 9,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 48,
+      "remaining": 2
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0039",
+    "order_date": "2025-05-29",
+    "customer": "Umbrella Ltd.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 9,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 3,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 14,
+      "remaining": 20
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0040",
+    "order_date": "2025-05-29",
+    "customer": "Umbrella Ltd.",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 3,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 14,
+      "remaining": 23
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0041",
+    "order_date": "2025-05-30",
+    "customer": "Umbrella Ltd.",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 5,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 9,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 0,
+      "remaining": 36
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0042",
+    "order_date": "2025-05-30",
+    "customer": "Globex",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 3,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 1,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 15,
+      "remaining": 12
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0043",
+    "order_date": "2025-05-30",
+    "customer": "ACME Corp",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 19,
+      "remaining": 15
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0044",
+    "order_date": "2025-05-30",
+    "customer": "Initech",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 3,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 5,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 5,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 18,
+      "remaining": 29
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0045",
+    "order_date": "2025-05-30",
+    "customer": "Umbrella Ltd.",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 7,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 1,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 19,
+      "remaining": 25
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0046",
+    "order_date": "2025-05-30",
+    "customer": "Initech",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 7,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 9,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 1,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 37,
+      "remaining": 4
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0047",
+    "order_date": "2025-05-30",
+    "customer": "Umbrella Ltd.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 6,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 12,
+      "remaining": 24
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0048",
+    "order_date": "2025-05-30",
+    "customer": "ACME Corp",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 3,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 8,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 3,
+      "remaining": 55
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0049",
+    "order_date": "2025-05-30",
+    "customer": "Globex",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 9,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 33,
+      "remaining": 2
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0050",
+    "order_date": "2025-05-30",
+    "customer": "Umbrella Ltd.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 5,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 1,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 7,
+      "remaining": 16
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0051",
+    "order_date": "2025-05-30",
+    "customer": "Initech",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 6,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 7,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 9,
+      "remaining": 33
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0052",
+    "order_date": "2025-05-30",
+    "customer": "Initech",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 5,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 9,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 5,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 1,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 20,
+      "remaining": 5
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0053",
+    "order_date": "2025-05-30",
+    "customer": "Globex",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 6,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 3,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 6,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 19,
+      "remaining": 27
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0054",
+    "order_date": "2025-05-30",
+    "customer": "Beta B.V.",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 9,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 23,
+      "remaining": 31
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0055",
+    "order_date": "2025-05-30",
+    "customer": "Initech",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 17,
+      "remaining": 27
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0056",
+    "order_date": "2025-05-30",
+    "customer": "Globex",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 4,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 1,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 1,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 8,
+      "remaining": 14
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0057",
+    "order_date": "2025-05-30",
+    "customer": "Beta B.V.",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 5,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 0,
+      "remaining": 34
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0058",
+    "order_date": "2025-05-30",
+    "customer": "Umbrella Ltd.",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 8,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 14,
+      "remaining": 27
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0059",
+    "order_date": "2025-05-30",
+    "customer": "Initech",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 8,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 3,
+      "remaining": 53
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0060",
+    "order_date": "2025-05-30",
+    "customer": "Initech",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 6,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 7,
+      "remaining": 17
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0061",
+    "order_date": "2025-05-31",
+    "customer": "Initech",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 9,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 10,
+      "remaining": 24
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0062",
+    "order_date": "2025-05-31",
+    "customer": "Beta B.V.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 7,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 9,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 4,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 5,
+      "remaining": 36
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0063",
+    "order_date": "2025-05-31",
+    "customer": "Globex",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 6,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 25,
+      "remaining": 12
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0064",
+    "order_date": "2025-05-31",
+    "customer": "Beta B.V.",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 7,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 27,
+      "remaining": 6
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0065",
+    "order_date": "2025-05-31",
+    "customer": "Beta B.V.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 1,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 8,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 1,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 6,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 9,
+      "remaining": 25
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0066",
+    "order_date": "2025-05-31",
+    "customer": "ACME Corp",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 5,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 6,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 1,
+      "remaining": 37
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0067",
+    "order_date": "2025-05-31",
+    "customer": "ACME Corp",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 11,
+      "remaining": 6
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0068",
+    "order_date": "2025-05-31",
+    "customer": "Initech",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 8,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 8,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 7,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 39,
+      "remaining": 18
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0069",
+    "order_date": "2025-05-31",
+    "customer": "Umbrella Ltd.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 9,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 45,
+      "remaining": 7
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0070",
+    "order_date": "2025-05-31",
+    "customer": "Globex",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 26,
+      "remaining": 2
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0071",
+    "order_date": "2025-05-31",
+    "customer": "Initech",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 9,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 24,
+      "remaining": 17
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0072",
+    "order_date": "2025-05-31",
+    "customer": "Beta B.V.",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 7,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 30,
+      "remaining": 0
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0073",
+    "order_date": "2025-05-31",
+    "customer": "Beta B.V.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 9,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 8,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 31,
+      "remaining": 15
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0074",
+    "order_date": "2025-05-31",
+    "customer": "Beta B.V.",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 8,
+      "remaining": 9
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0075",
+    "order_date": "2025-05-31",
+    "customer": "ACME Corp",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 4,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 3,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 31,
+      "remaining": 8
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0076",
+    "order_date": "2025-05-31",
+    "customer": "Beta B.V.",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 32,
+      "remaining": 2
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0077",
+    "order_date": "2025-05-31",
+    "customer": "Umbrella Ltd.",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 1,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 13,
+      "remaining": 26
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0078",
+    "order_date": "2025-05-31",
+    "customer": "Globex",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 8,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 7,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 13,
+      "remaining": 19
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0079",
+    "order_date": "2025-05-31",
+    "customer": "Globex",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 6,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 9,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 11,
+      "remaining": 31
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0080",
+    "order_date": "2025-05-31",
+    "customer": "ACME Corp",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 5,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 5,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 5,
+      "remaining": 32
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0081",
+    "order_date": "2025-06-01",
+    "customer": "Beta B.V.",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 9,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 9,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 7,
+      "remaining": 42
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0082",
+    "order_date": "2025-06-01",
+    "customer": "Beta B.V.",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 3,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 1,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 5,
+      "remaining": 16
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0083",
+    "order_date": "2025-06-01",
+    "customer": "Globex",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 9,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 4,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 7,
+      "remaining": 19
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0084",
+    "order_date": "2025-06-01",
+    "customer": "ACME Corp",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 7,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 7,
+      "remaining": 53
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0085",
+    "order_date": "2025-06-01",
+    "customer": "Umbrella Ltd.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 5,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 36,
+      "remaining": 15
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0086",
+    "order_date": "2025-06-01",
+    "customer": "ACME Corp",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 1,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 1,
+      "remaining": 22
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0087",
+    "order_date": "2025-06-01",
+    "customer": "Umbrella Ltd.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 14,
+      "remaining": 28
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0088",
+    "order_date": "2025-06-01",
+    "customer": "Beta B.V.",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 1,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 7,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 30,
+      "remaining": 2
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0089",
+    "order_date": "2025-06-01",
+    "customer": "Initech",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 6,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 8,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 8,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 8,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 10,
+      "remaining": 37
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0090",
+    "order_date": "2025-06-01",
+    "customer": "ACME Corp",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 8,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 6,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 4,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 38,
+      "remaining": 2
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0091",
+    "order_date": "2025-06-01",
+    "customer": "Initech",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 4,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 16,
+      "remaining": 15
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0092",
+    "order_date": "2025-06-01",
+    "customer": "Beta B.V.",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 5,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 1,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 0,
+      "remaining": 21
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0093",
+    "order_date": "2025-06-01",
+    "customer": "Globex",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 6,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 7,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 39,
+      "remaining": 8
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0094",
+    "order_date": "2025-06-01",
+    "customer": "Umbrella Ltd.",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 8,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 6,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 5,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 22,
+      "remaining": 10
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0095",
+    "order_date": "2025-06-01",
+    "customer": "Umbrella Ltd.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 9,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 1,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 19,
+      "remaining": 13
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0096",
+    "order_date": "2025-06-01",
+    "customer": "Umbrella Ltd.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 6,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 9,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 8,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 40,
+      "remaining": 10
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0097",
+    "order_date": "2025-06-01",
+    "customer": "Beta B.V.",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 4,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 36,
+      "remaining": 0
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0098",
+    "order_date": "2025-06-01",
+    "customer": "Beta B.V.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 5,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 4,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 33,
+      "remaining": 7
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0099",
+    "order_date": "2025-06-01",
+    "customer": "Globex",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 1,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 5,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 7,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 6,
+      "remaining": 19
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0100",
+    "order_date": "2025-06-01",
+    "customer": "Beta B.V.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 9,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 7,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 29,
+      "remaining": 20
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0101",
+    "order_date": "2025-06-02",
+    "customer": "ACME Corp",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 1,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 1,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 17,
+      "remaining": 2
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0102",
+    "order_date": "2025-06-02",
+    "customer": "Umbrella Ltd.",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 5,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 1,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 9,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 34,
+      "remaining": 1
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0103",
+    "order_date": "2025-06-02",
+    "customer": "Umbrella Ltd.",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 9,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 3,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 6,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 12,
+      "remaining": 28
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0104",
+    "order_date": "2025-06-02",
+    "customer": "Initech",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 9,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 47,
+      "remaining": 2
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0105",
+    "order_date": "2025-06-02",
+    "customer": "ACME Corp",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 9,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 5,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 7,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 30,
+      "remaining": 7
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0106",
+    "order_date": "2025-06-02",
+    "customer": "Beta B.V.",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 1,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 3,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 5,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 10,
+      "remaining": 19
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0107",
+    "order_date": "2025-06-02",
+    "customer": "Beta B.V.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 7,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 36,
+      "remaining": 10
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0108",
+    "order_date": "2025-06-02",
+    "customer": "ACME Corp",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 1,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 1,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 8,
+      "remaining": 10
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0109",
+    "order_date": "2025-06-02",
+    "customer": "Initech",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 1,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 1,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 6,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 7,
+      "remaining": 10
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0110",
+    "order_date": "2025-06-02",
+    "customer": "ACME Corp",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 7,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 5,
+      "remaining": 25
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0111",
+    "order_date": "2025-06-02",
+    "customer": "Globex",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 3,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 18,
+      "remaining": 4
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0112",
+    "order_date": "2025-06-02",
+    "customer": "Initech",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 8,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 1,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 1,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 30,
+      "remaining": 2
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0113",
+    "order_date": "2025-06-02",
+    "customer": "Globex",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 7,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 27,
+      "remaining": 26
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0114",
+    "order_date": "2025-06-02",
+    "customer": "ACME Corp",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 9,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 21,
+      "remaining": 31
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0115",
+    "order_date": "2025-06-02",
+    "customer": "Beta B.V.",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 5,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 4,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 18,
+      "remaining": 20
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0116",
+    "order_date": "2025-06-02",
+    "customer": "Globex",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 1,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 7,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 4,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 5,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 6,
+      "remaining": 31
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0117",
+    "order_date": "2025-06-02",
+    "customer": "Initech",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 9,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 38,
+      "remaining": 2
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0118",
+    "order_date": "2025-06-02",
+    "customer": "Beta B.V.",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 8,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 7,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 25,
+      "remaining": 17
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0119",
+    "order_date": "2025-06-02",
+    "customer": "Globex",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 23,
+      "remaining": 25
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0120",
+    "order_date": "2025-06-02",
+    "customer": "ACME Corp",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 32,
+      "remaining": 9
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0121",
+    "order_date": "2025-06-03",
+    "customer": "Umbrella Ltd.",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 13,
+      "remaining": 7
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0122",
+    "order_date": "2025-06-03",
+    "customer": "Beta B.V.",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 1,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 5,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 12,
+      "remaining": 12
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0123",
+    "order_date": "2025-06-03",
+    "customer": "Umbrella Ltd.",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 7,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 7,
+      "remaining": 18
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0124",
+    "order_date": "2025-06-03",
+    "customer": "ACME Corp",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 8,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 6,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 6,
+      "remaining": 46
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0125",
+    "order_date": "2025-06-03",
+    "customer": "Initech",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 7,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 6,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 7,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 7,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 5,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 42,
+      "remaining": 4
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0126",
+    "order_date": "2025-06-03",
+    "customer": "Umbrella Ltd.",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 8,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 3,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 4,
+      "remaining": 23
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0127",
+    "order_date": "2025-06-03",
+    "customer": "Umbrella Ltd.",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 9,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 4,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 25,
+      "remaining": 4
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0128",
+    "order_date": "2025-06-03",
+    "customer": "Beta B.V.",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 9,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 4,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 10,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 3,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 21,
+      "remaining": 14
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0129",
+    "order_date": "2025-06-03",
+    "customer": "Globex",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 9,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 19,
+      "remaining": 12
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0130",
+    "order_date": "2025-06-03",
+    "customer": "Initech",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 5,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 9,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 8,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 5,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 9,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 5,
+      "remaining": 46
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0131",
+    "order_date": "2025-06-03",
+    "customer": "ACME Corp",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 9,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      }
+    ],
+    "status_info": {
+      "processed": 24,
+      "remaining": 16
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0132",
+    "order_date": "2025-06-03",
+    "customer": "Beta B.V.",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 5,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 5,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 17,
+      "remaining": 4
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0133",
+    "order_date": "2025-06-03",
+    "customer": "Globex",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 3,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 6,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 4,
+      "remaining": 39
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0134",
+    "order_date": "2025-06-03",
+    "customer": "ACME Corp",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 2,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 2,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 8,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B201",
+        "qty": 9,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 5,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 5,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 18,
+      "remaining": 21
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0135",
+    "order_date": "2025-06-03",
+    "customer": "ACME Corp",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 7,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 8,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A101",
+        "qty": 9,
+        "description": "Widget A"
+      },
+      {
+        "sku": "B202",
+        "qty": 2,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 9,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 18,
+      "remaining": 18
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0136",
+    "order_date": "2025-06-03",
+    "customer": "ACME Corp",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 9,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "C303",
+        "qty": 2,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 9,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 31,
+      "remaining": 6
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0137",
+    "order_date": "2025-06-03",
+    "customer": "Umbrella Ltd.",
+    "status": "FINISHED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B201",
+        "qty": 4,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 10,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "C303",
+        "qty": 3,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B201",
+        "qty": 8,
+        "description": "Gadget X"
+      }
+    ],
+    "status_info": {
+      "processed": 20,
+      "remaining": 10
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0138",
+    "order_date": "2025-06-03",
+    "customer": "Initech",
+    "status": "DISPATCHING",
+    "items": [
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 6,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 4,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 2,
+      "remaining": 20
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0139",
+    "order_date": "2025-06-03",
+    "customer": "Globex",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 6,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B202",
+        "qty": 10,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "B201",
+        "qty": 2,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 8,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 1,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A101",
+        "qty": 5,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      }
+    ],
+    "status_info": {
+      "processed": 11,
+      "remaining": 32
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  },
+  {
+    "order_id": "ORD0140",
+    "order_date": "2025-06-03",
+    "customer": "ACME Corp",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "B202",
+        "qty": 9,
+        "description": "Gadget Y"
+      },
+      {
+        "sku": "A102",
+        "qty": 10,
+        "description": "Widget B"
+      },
+      {
+        "sku": "B201",
+        "qty": 6,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "A102",
+        "qty": 3,
+        "description": "Widget B"
+      },
+      {
+        "sku": "A101",
+        "qty": 7,
+        "description": "Widget A"
+      },
+      {
+        "sku": "C303",
+        "qty": 1,
+        "description": "Tool Z"
+      },
+      {
+        "sku": "B202",
+        "qty": 1,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 34,
+      "remaining": 3
+    },
+    "extra_info": "Testdata gegenereerd voor UI-demo."
+  }
+]

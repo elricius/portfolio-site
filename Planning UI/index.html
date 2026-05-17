@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Planning UI</title>
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/scheduler.css">
+</head>
+<body>
+  <header><h1>Planning Overzicht</h1></header>
+  <section class="filters">
+    <div class="filter-wrapper">
+      <form id="filter-form">
+        <button type="reset" id="reset-filters">Reset filters</button>
+        <span id="filter-status">Geen datum geselecteerd</span>
+      </form>
+    </div>
+  </section>
+  <section class="scheduler" id="scheduler"></section>
+  <section class="grid" id="grid"></section>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

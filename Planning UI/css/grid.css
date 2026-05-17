@@ -1,0 +1,53 @@
+.main-table { width: 100%; border-collapse: collapse; }
+.main-table th, .main-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+.main-table th { background-color: #00407f; color: white; }
+.status.CONFIRMED { background-color: #30b010; color: white; }
+.status.PLANNED { background-color: #50a0f0; color: white; }
+.toggle-btn { font-size: 1.2em; background: none; border: none; cursor: pointer; }
+.detail-row { display: none; }
+.detail-row.visible { display: table-row; }
+.tabs { margin-top: 10px; }
+.tab-header { display: flex; gap: 10px; margin-bottom: 10px; }
+.tab-btn { padding: 6px 12px; border: none; background-color: #ccc; cursor: pointer; font-weight: bold; border-radius: 4px; }
+.tab-btn.active { background-color: #00407f; color: white; }
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+.subtable {
+  width: 100%; border-collapse: collapse; background-color: #f9f9f9;
+}
+.subtable th, .subtable td {
+  border: 1px solid #ddd;
+  padding: 6px 10px;
+  font-size: 0.95em;
+}
+.subtable th {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+.grid-wrapper {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin: 10px 20px;
+}
+
+.tab-content[data-tab="status"] {
+  border: 1px solid #ddd;  
+  border-radius: 5px;
+  padding-left: 5px;
+  background-color: #f5f5f5;
+}
+
+.tab-content[data-tab="info"] {
+  border: 1px solid #ddd;  
+  border-radius: 5px;
+  padding-left: 5px;
+  background-color: #f5f5f5;
+}

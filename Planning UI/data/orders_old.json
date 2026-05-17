@@ -1,0 +1,48 @@
+[
+  {
+    "order_id": "ORD001",
+    "order_date": "2025-06-10",
+    "customer": "ACME Corp",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "sku": "A101",
+        "qty": 10,
+        "description": "Widget A"
+      },
+      {
+        "sku": "A102",
+        "qty": 5,
+        "description": "Widget B"
+      }
+    ],
+    "status_info": {
+      "processed": 12,
+      "remaining": 3
+    },
+    "extra_info": "Opmerkingen over levering en verpakkingswijze."
+  },
+  {
+    "order_id": "ORD002",
+    "order_date": "2025-06-11",
+    "customer": "Beta B.V.",
+    "status": "PLANNED",
+    "items": [
+      {
+        "sku": "B201",
+        "qty": 3,
+        "description": "Gadget X"
+      },
+      {
+        "sku": "B202",
+        "qty": 7,
+        "description": "Gadget Y"
+      }
+    ],
+    "status_info": {
+      "processed": 0,
+      "remaining": 10
+    },
+    "extra_info": "Snelle levering gewenst."
+  }
+]
